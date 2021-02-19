@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styling/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Todo app</title>
+
+</head>
+<body>
+  <div class="main">
+    <img src="./images/bg-desktop-dark.jpg" alt="" class="backgroundImgDark backgroundImg">
+    <img src="./images/bg-desktop-light.jpg" alt="" class="backgroundImg backgroundImgLight">
+      <div class="container">
+        <div class="header">
+          <h1>T O D O</h1>
+          
+          <img src="./images/icon-sun.svg" alt="" class="light">
+          <img src="./images/icon-moon.svg"  class="moon" alt="">
+
+        </div>
+        <input type="text" class="add-todo" placeholder="Create a new todo..">
+
+      </input>
+        <div class="todo-container">
+          <ul class="myUL">
+            <li>go to gym <img class="remove close" src="./images/icon-cross.svg" alt=""></li>
+            <li>walk <img class="remove close" src="./images/icon-cross.svg" alt=""> </li>
+            <li>wohin <img class="remove close" src="./images/icon-cross.svg" alt=""></li>
+            <li>denn <img  class="remove close" src="./images/icon-cross.svg" alt=""></li>
+            <li>lol <img  class="remove close" src="./images/icon-cross.svg" alt=""></li>
+          </ul>
+          </div>
+          <div class="todo-footer">
+            <p class="counter">0 items left</p>
+            <ul>
+              <li class="all">All</li>
+              <li class="active">Active</li>
+              <li class="completed">Completed</li>
+            </ul>
+            <p class="clearCompleted">Clear Completed</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  <script src="./javascript.js"></script>
+</body>
+</html>
